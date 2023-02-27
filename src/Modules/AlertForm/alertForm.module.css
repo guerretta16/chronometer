@@ -1,0 +1,80 @@
+.container{
+    padding: 20px;
+}
+
+.info{
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.info h2{
+    width: fit-content;
+    border-bottom: 2px solid #fff;
+    font-size: 25px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.info small{
+    font-size: 12px;
+}
+
+.formControl{
+    width: 100%;
+    margin: 5px 0;
+}
+
+.input{
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    outline: none;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+}
+
+.error{
+    display: block;
+    font-size: 10px;
+    margin-top: 3px;
+    padding: 0 5px;
+    color: #cecece;
+    text-align: right;
+}
+
+.button{
+    display: block;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 20px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: #000;
+    background-color: #fff;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.resume{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0px;
+    color: #fff;
+}
+
+.resume p {
+    color: #c2c2c2;
+}
+
+.resume span {
+    font-weight: 500;
+}
