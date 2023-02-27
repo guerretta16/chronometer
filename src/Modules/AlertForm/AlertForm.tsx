@@ -34,15 +34,15 @@ const AlertForm = ({onSubmit, alert}: AlertFormState) => {
       </div>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className={styles.formControl}>
-          <input className={styles.input} {...register("hour", {required: true, maxLength:1})} placeholder="Hours"/>
+          <input className={styles.input} {...register("hour", {required: true, maxLength:2})} placeholder="Hours"/>
           {errors.hour && <span className={styles.error}>Required & just 1 digits!</span>}
         </div>
         <div className={styles.formControl}>
-          <input className={styles.input} {...register("minute", {required: true, maxLength:1})} placeholder="Minutes"/>
+          <input className={styles.input} {...register("minute", {required: true, maxLength:2})} placeholder="Minutes"/>
           {errors.hour && <span className={styles.error}>Required & just 1 digits!</span>}
         </div>
         <div className={styles.formControl}>
-          <input className={styles.input} {...register("second", {required: true, maxLength:1})} placeholder="Seconds"/>
+          <input className={styles.input} {...register("second", {required: true, maxLength:2})} placeholder="Seconds"/>
           {errors.hour && <span className={styles.error}>Required & just 1 digits!</span>}
         </div>
         <input className={styles.button} type="submit"/>
